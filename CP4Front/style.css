@@ -222,6 +222,59 @@ align-items: start;
 
 
 
+.avaliacoes {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 32px;
+  margin: 8px 0 24px;
+}
+
+.review { 
+  background: transparent;
+}
+
+.review_header{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 6px;
+}
+
+.review_avatar{
+  width: 44px; height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.review_name{
+  margin: 0;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.review_muted{
+  margin: 0;
+  font-size: .95rem;
+}
+
+.review_meta{
+  margin: 2px 0 8px;
+  font-size: .95rem;
+  color: #444;
+}
+
+.review_text{
+  margin: 0;
+  color: #333;
+  line-height: 1.55;
+}
+
+/* Reaproveita seu título padrão da página */
+.section-title { display:flex; align-items:center; gap:8px; margin:28px 0 10px; font-size:1.15rem; }
+.section-title::after { content:""; flex:1; height:1px; background: var(--line); }
+
+
+
 .a-footer {
     display: flex;
     flex-direction: row;
