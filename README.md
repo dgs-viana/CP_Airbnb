@@ -18,7 +18,7 @@ O objetivo foi recriar uma página de imóvel do Airbnb utilizando **apenas HTML
 ---
 
 ## 🔗 Publicação
-- GitHub Pages: 
+- GitHub Pages: https://dgs-viana.github.io/CP_Airbnb/
 
 ---
 
